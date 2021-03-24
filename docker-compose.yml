@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: Dockerfile
   php:
-    image: php:7.4.16-apache
+    image: php:7.4.16
     ports:
       - "80:80"
       - "443:443"
