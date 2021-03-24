@@ -3,8 +3,7 @@
 
 try
 {
-    $bdd = new mysqli('localhost', 'root', 'Root1', 'iut');
-    $bdd->set_charset("utf8");
+    $bdd = new mysqli('127.0.0.1', 'root', 'Root1', 'iut');
 }
 catch(Exception $e)
 {
