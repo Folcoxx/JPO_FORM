@@ -3,7 +3,7 @@
 
 try
 {
-    $bdd = new mysqli('127.0.0.1', 'root', 'Root1', 'iut', 3306);
+    $bdd = new mysqli('127.0.0.1', 'root', 'Root1', 'iut', 33060);
 }
 catch(Exception $e)
 {
