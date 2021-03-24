@@ -3,7 +3,7 @@
 
 try
 {
-    $bdd = new mysqli('127.0.0.1', 'root', 'Root1', 'iut', 33060);
+    $bdd = new PDO('mysql:host=localhost;dbname=iut;charset=utf8', 'root', 'Root1');
 }
 catch(Exception $e)
 {
