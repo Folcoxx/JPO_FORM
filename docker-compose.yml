@@ -24,7 +24,7 @@ services:
      - MYSQL_DATABASE=iut
      - MYSQL_HOST=127.0.0.1
     ports:
-     - 3306:3306
+     - 33060:3306
 
   
   adminer:
