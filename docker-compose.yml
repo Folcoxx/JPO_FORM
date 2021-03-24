@@ -1,8 +1,12 @@
 version: '2'
 
 services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
   php:
-    build: php
+    image: php:7.4.16-apache
     ports:
       - "80:80"
       - "443:443"
