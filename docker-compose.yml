@@ -22,11 +22,7 @@ services:
     environment:
      - MYSQL_ROOT_PASSWORD=Root1
      - MYSQL_DATABASE=iut
-     - MYSQL_HOST=127.0.0.1
-    ports:
-     - 33060:3306
 
-  
   adminer:
     image: adminer
     restart: always
