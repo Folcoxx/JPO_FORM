@@ -22,6 +22,8 @@ services:
     environment:
      - MYSQL_ROOT_PASSWORD=Root1
      - MYSQL_DATABASE=iut
+    ports:
+      3306:3306
 
   
   adminer:
