@@ -1,6 +1,6 @@
 #!/bin/bash
 
 apt update
-apt install docker docker-compose git -y
+apt install docker docker-compose -y
 
 # Installation des composants obligatoires
