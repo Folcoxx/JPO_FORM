@@ -17,4 +17,4 @@ Installation de git et clonage du projet
 <h2>Monter le container Docker</h2>
 
 <pre><code>cd JPO_FORM/</code>
-<code>docker compose up -d</code></pre>
+<code>docker compose-up -d</code></pre>
