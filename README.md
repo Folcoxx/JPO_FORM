@@ -12,7 +12,7 @@ Installation de git et clonage du projet
 
 <pre><code>cd JPO_FORM/</code>
 <code>chmod 755 requirement.sh</code>
-<code>./requirement</code></pre>
+<code>./requirement.sh</code></pre>
 
 <h2>Monter le container Docker</h2>
 
